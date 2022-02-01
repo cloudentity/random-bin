@@ -1,0 +1,24 @@
+input TweetInput {
+		content: String
+		author: String
+	  }
+
+	type Tweet {
+		id: String
+		content: String
+		dateCreated: String
+    dateModified: String
+		author: String
+	}
+
+	type Query {
+		sayHiTweety: String
+		getTweet(id: String!) : Tweet
+		getLatestTweets : [Tweet]
+	}
+
+	type Mutation {
+		createTweet(tweet: TweetInput): Tweet
+		updateTweet(id: String!, tweet: TweetInput): Tweet
+    	deleteTweet(id: String!): String
+	}
