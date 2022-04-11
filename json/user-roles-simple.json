@@ -1,0 +1,20 @@
+[{
+		"userId": "user-1",
+		"roles": [
+			"USER_ACCESS_X"
+		]
+	},
+	{
+		"userId": "user-2",
+		"roles": [
+			"USER_ACCESS_X",
+			"USER_ACCESS_Y"
+		]
+	},
+	{
+		"userId": "user-3",
+		"roles": [
+
+		]
+	}
+]
