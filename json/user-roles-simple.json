@@ -16,5 +16,34 @@
 		"roles": [
 
 		]
+	},
+	{
+		"userId": "superadmin",
+		"roles": [
+			"CREATE_RESERVATION",
+			"MODIFY_RESERVATION",
+			"CANCEL_RESERVATION"
+		]
+	},
+	{
+		"userId": "john",
+		"roles": [
+			"CREATE_RESERVATION",
+			"MODIFY_RESERVATION",
+			"CANCEL_RESERVATION"
+		]
+	},
+	{
+		"userId": "mary",
+		"roles": [
+			"CREATE_RESERVATION",
+			"MODIFY_RESERVATION"
+		]
+	},
+	{
+		"userId": "david",
+		"roles": [
+			"MODIFY_RESERVATION"
+		]
 	}
 ]
