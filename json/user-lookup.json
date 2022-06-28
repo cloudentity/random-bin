@@ -1,0 +1,18 @@
+[
+	{
+	"userId": "user-123",
+	"preferences": {
+		"allow_agent_access": true,
+		"require_mfa": false,
+		"locale": "en_US"
+	}
+	},
+	{
+		"userId": "user-256",
+		"preferences": {
+			"allow_agent_access": true,
+			"require_mfa": false,
+			"locale": "fr_BE"
+		}
+	}
+]

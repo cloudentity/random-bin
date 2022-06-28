@@ -2,20 +2,96 @@
 		"userId": "user-1",
 		"roles": [
 			"USER_ACCESS_X"
-		]
+		],
+		"customerId": "C100001",
+		"loyaltyId": "L100001",
+		"subscriptions": [{
+			"S1000001": {
+				"type": "package-1",
+				"subscribed_on": "2021-02-02",
+				"subscriptionId": "S1000001"
+			}
+		}]
 	},
 	{
 		"userId": "user-2",
 		"roles": [
 			"USER_ACCESS_X",
 			"USER_ACCESS_Y"
-		]
+		],
+		"customerId": "C100002",
+		"loyaltyId": "L100002",
+		"subscriptions": [{
+			"S1000002": {
+				"type": "package-1",
+				"subscribed_on": "2021-02-02",
+				"subscriptionId": "S1000002"
+			}
+		}]
 	},
 	{
 		"userId": "user-3",
 		"roles": [
 
-		]
+		],
+		"customerId": "C100003",
+		"loyaltyId": "L100003",
+		"subscriptions": [{
+			"S1000003": {
+				"type": "package-1",
+				"subscribed_on": "2021-02-02",
+				"subscriptionId": "S1000003"
+			}
+		}]
+	},
+
+	{
+		"userId": "john",
+		"roles": [
+			"CREATE_RESERVATION",
+			"MODIFY_RESERVATION",
+			"CANCEL_RESERVATION"
+		],
+		"customerId": "C100004",
+		"loyaltyId": "L100004",
+		"subscriptions": [{
+			"S1000004": {
+				"type": "package-1",
+				"subscribed_on": "2021-02-02",
+				"subscriptionId": "S1000004"
+			}
+		}]
+	},
+	{
+		"userId": "mary",
+		"roles": [
+			"CREATE_RESERVATION",
+			"MODIFY_RESERVATION"
+		],
+		"customerId": "C100005",
+		"loyaltyId": "L100005",
+		"subscriptions": [{
+			"S1000005": {
+				"type": "package-1",
+				"subscribed_on": "2021-02-02",
+				"subscriptionId": "S1000005"
+			}
+		}]
+	},
+	{
+		"userId": "david",
+		"roles": [
+			"MODIFY_RESERVATION"
+		],
+		"customerId": "C100006",
+		"loyaltyId": "L100006",
+		"subscriptions": [{
+			"S1000001": {
+				"type": "package-1",
+				"subscribed_on": "2021-02-02",
+				"subscriptionId": "S1000006"
+			}
+		}]
 	},
 	{
 		"userId": "superadmin",
@@ -23,27 +99,9 @@
 			"CREATE_RESERVATION",
 			"MODIFY_RESERVATION",
 			"CANCEL_RESERVATION"
-		]
-	},
-	{
-		"userId": "john",
-		"roles": [
-			"CREATE_RESERVATION",
-			"MODIFY_RESERVATION",
-			"CANCEL_RESERVATION"
-		]
-	},
-	{
-		"userId": "mary",
-		"roles": [
-			"CREATE_RESERVATION",
-			"MODIFY_RESERVATION"
-		]
-	},
-	{
-		"userId": "david",
-		"roles": [
-			"MODIFY_RESERVATION"
-		]
+		],
+		"customerId": "",
+		"loyaltyId": "",
+		"subscriptions": []
 	}
 ]
