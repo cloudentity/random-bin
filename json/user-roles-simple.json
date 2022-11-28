@@ -103,5 +103,35 @@
 		"customerId": "",
 		"loyaltyId": "",
 		"subscriptions": []
+	},
+	{
+		"userId": "kp1.provider",
+		"roles": [
+			"HOSPITAL_PROVIDER",
+			"IMMEDIATE_CARE_LA_FULL_ADMIN"
+		],
+		"providerId": "kp1.provider",
+		"subscriptions": [{
+			"S1000002": {
+				"type": "package-1",
+				"subscribed_on": "2021-02-02",
+				"subscriptionId": "S1000002"
+			}
+		}]
+	},
+	{
+		"userId": "kp1.temp",
+		"roles": [
+			"HOSPITAL_TEMP_WORKER",
+			"IMMEDIATE_CARE_LA_TEMP_ACCESS"
+		],
+		"providerId": "kp1.temp",
+		"subscriptions": [{
+			"S1000002": {
+				"type": "package-1",
+				"subscribed_on": "2021-02-02",
+				"subscriptionId": "S1000002"
+			}
+		}]
 	}
 ]
