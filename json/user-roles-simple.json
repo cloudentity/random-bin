@@ -133,5 +133,17 @@
 				"subscriptionId": "S1000002"
 			}
 		}]
+	},
+	{
+		"userId": "agent1@test.com",
+		"usertype": "Policy agent"
+	},
+	{
+		"userId": "agent2@test.com",
+		"usertype": "Claim agent"
+	},
+	{
+		"userId": "agent3@test.com",
+		"usertype": "Policy agent"
 	}
 ]
